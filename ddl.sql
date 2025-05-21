@@ -37,3 +37,4 @@ alter table prestamos
 add foreign key (id_cliente) references clientes(id_cliente);
 alter table prestamos
 add foreign key (id_copia) references copias(id_copia);
+

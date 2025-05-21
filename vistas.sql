@@ -13,4 +13,4 @@ FROM prestamos pr
 JOIN clientes cl ON pr.id_cliente = cl.id_cliente
 JOIN copias c ON pr.id_copia = c.id_copia
 JOIN pelicula p ON c.id_pelicula = p.id_pelicula
-WHERE pr.fecha_entrega IS NULL;;
+WHERE pr.fecha_entrega IS NULL;
